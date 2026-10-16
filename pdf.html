@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exiled Souls | Your Library</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="pdf.css">
+</head>
+<body>
+    <header>
+        <div class="brand">EXILED SOULS</div>
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#library">LIBRARY</a>
+            <a href="#about">ABOUT</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <p class="eyebrow">A HOME FOR EVERY STORY</p>
+            <h1>EXILED SOULS</h1>
+            <p>Stories that stay with you.<br>
+               Worlds waiting to be discovered.</p>
+            <a href="#library" class="explore-btn">EXPLORE THE LIBRARY</a>
+        </section>
+
+        <section class="library" id="library">
+            <div class="section-heading">
+                <h2>The Library</h2>
+                <span id="book-count">0 BOOKS</span>
+            </div>
+
+            <input type="search" id="search"
+                class="search-box"
+                placeholder="Search novels or authors..."
+                aria-label="Search novels or authors">
+
+            <div class="book-grid" id="book-grid"></div>
+        </section>
+
+        <section class="about" id="about">
+            <h2>More Than Words.</h2>
+            <p>Exiled Souls is a home for stories, dreamers,
+            and the worlds authors create. Discover your next
+            favourite novel with us.</p>
+        </section>
+    </main>
+
+    <footer>EXILED SOULS · YOUR NEXT STORY AWAITS</footer>
+
+    <script src="pdf.js"></script>
+</body>
+</html>
