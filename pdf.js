@@ -12,13 +12,13 @@ pdf: "https://novelstudiopk.com/2026/09/02/novels/fana-e-hayat-by-alkash-complet
 
     },
     {
-        title: "Your Next Story",
-        author: "Author Name",
-        genre: "Fiction",
-        description: "Add your novel description here.",
-        cover: "",
-        pdf: ""
-    }
+    title: "Na-gufta",
+    author: "Aiman Khan",
+    genre: "Social & Psychological Fiction",
+    description: "She wanted to speak, but words had abandoned her. And by the time someone finally understood her silence, it was already too late.",
+    cover: "",
+    pdf: "https://drive.google.com/file/d/1iZVXprEMtmbSSuFsoJMRlD_z9Os3EQr7/view?usp=drivesdk"
+}
 ];
 
 const grid = document.getElementById("book-grid");
