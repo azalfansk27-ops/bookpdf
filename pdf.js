@@ -16,7 +16,7 @@ pdf: "https://novelstudiopk.com/2026/09/02/novels/fana-e-hayat-by-alkash-complet
     author: "Aiman Khan",
     genre: "Social & Psychological Fiction",
     description: "She wanted to speak, but words had abandoned her. And by the time someone finally understood her silence, it was already too late.",
-    cover: "",
+    cover: "IMG_20261016_184153_970.jpg",
     pdf: "https://drive.google.com/file/d/1iZVXprEMtmbSSuFsoJMRlD_z9Os3EQr7/view?usp=drivesdk"
 }
 ];
