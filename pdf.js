@@ -6,7 +6,7 @@ const novels = [
         genre: "Mystery · Romance",
         description:
             "A world of secrets, revenge, and mysteries waiting to unfold.",
-        cover: "fana e hayat cover.jpg",
+        cover: "Fana e hayat cover.jpg",
    
 pdf: "https://novelstudiopk.com/2026/09/02/novels/fana-e-hayat-by-alkash-complete/"
 
