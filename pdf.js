@@ -19,8 +19,8 @@ const novels = [
     {
         title: "Mazi, Haal Aur Mustaqbil",
         author: "Aiman Khan",
-        genre: "Urdu Fiction",
-        description: "A new story waiting to be discovered.",
+        genre: "",
+        description: "",
         cover: "Mazi, haal aur mustaqbil.jpg",
         pdf: "https://drive.google.com/file/d/1m1pAULaT9IXMNWUA0yvGdv6NEKIFvJRF/view?usp=drivesdk"
     }
