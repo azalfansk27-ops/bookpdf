@@ -20,7 +20,7 @@ const novels = [
         title: "Mazi, Haal Aur Mustaqbil",
         author: "Aiman Khan",
         genre: "Article",
-        description: "Ek zindagi,teen pahelo",
+        description: "Teen pahelo, ek zindagi",
         cover: "Mazi, haal aur mustqbil.jpg",
         pdf: "https://drive.google.com/file/d/1m1pAULaT9IXMNWUA0yvGdv6NEKIFvJRF/view?usp=drivesdk"
     }
