@@ -19,6 +19,14 @@ pdf: "https://novelstudiopk.com/2026/09/02/novels/fana-e-hayat-by-alkash-complet
     cover: "IMG_20261016_184153_970.jpg",
     pdf: "https://drive.google.com/file/d/1iZVXprEMtmbSSuFsoJMRlD_z9Os3EQr7/view?usp=drivesdk"
 }
+    {
+    title: "Mazi, Haal Aur Mustaqbil",
+    author: "Aiman Khan",
+    genre: "",
+    description: "",
+    cover: "Mazi, haal aur mustaqbil.jpg",
+    pdf: "https://drive.google.com/file/d/1m1pAULaT9IXMNWUA0yvGdv6NEKIFvJRF/view?usp=drivesdk"
+}
 ];
 
 const grid = document.getElementById("book-grid");
