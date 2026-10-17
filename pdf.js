@@ -1,4 +1,3 @@
-
 const novels = [
     {
         title: "Fana-e-Hayat",
@@ -7,26 +6,24 @@ const novels = [
         description:
             "A world of secrets, revenge, and mysteries waiting to unfold.",
         cover: "Fana e hayat cover.jpg",
-   
-pdf: "https://novelstudiopk.com/2026/09/02/novels/fana-e-hayat-by-alkash-complete/"
-
+        pdf: "https://novelstudiopk.com/2026/09/02/novels/fana-e-hayat-by-alkash-complete/"
     },
     {
-    title: "Na-gufta",
-    author: "Aiman Khan",
-    genre: "Social & Psychological Fiction",
-    description: "She wanted to speak, but words had abandoned her. And by the time someone finally understood her silence, it was already too late.",
-    cover: "IMG_20261016_184153_970.jpg",
-    pdf: "https://drive.google.com/file/d/1iZVXprEMtmbSSuFsoJMRlD_z9Os3EQr7/view?usp=drivesdk"
-},
+        title: "Na-gufta",
+        author: "Aiman Khan",
+        genre: "Social & Psychological Fiction",
+        description: "She wanted to speak, but words had abandoned her. And by the time someone finally understood her silence, it was already too late.",
+        cover: "IMG_20261016_184153_970.jpg",
+        pdf: "https://drive.google.com/file/d/1iZVXprEMtmbSSuFsoJMRlD_z9Os3EQr7/view?usp=drivesdk"
+    },
     {
-    title: "Mazi, Haal Aur Mustaqbil",
-    author: "Aiman Khan",
-    genre: "",
-    description: "",
-    cover: "Mazi, haal aur mustaqbil.jpg",
-    pdf: "https://drive.google.com/file/d/1m1pAULaT9IXMNWUA0yvGdv6NEKIFvJRF/view?usp=drivesdk"
-}
+        title: "Mazi, Haal Aur Mustaqbil",
+        author: "Aiman Khan",
+        genre: "Urdu Fiction",
+        description: "A new story waiting to be discovered.",
+        cover: "Mazi, haal aur mustaqbil.jpg",
+        pdf: "https://drive.google.com/file/d/1m1pAULaT9IXMNWUA0yvGdv6NEKIFvJRF/view?usp=drivesdk"
+    }
 ];
 
 const grid = document.getElementById("book-grid");
@@ -56,7 +53,6 @@ function renderNovels(query = "") {
         const card = document.createElement("article");
         card.className = "book-card";
 
-        // Cover image or placeholder
         let cover;
 
         if (book.cover) {
@@ -78,7 +74,6 @@ function renderNovels(query = "") {
             cover.append(coverTitle, label);
         }
 
-        // Novel information
         const info = document.createElement("div");
         info.className = "book-info";
 
@@ -99,14 +94,13 @@ function renderNovels(query = "") {
 
         info.append(genre, title, author, description);
 
-        // PDF download button
         if (book.pdf) {
             const link = document.createElement("a");
             link.className = "download-btn";
             link.href = book.pdf;
             link.target = "_blank";
             link.rel = "noopener noreferrer";
-            link.textContent = "DOWNLOAD PDF";
+            link.textContent = "READ NOW";
 
             link.addEventListener("click", event => {
                 event.stopPropagation();
@@ -122,7 +116,6 @@ function renderNovels(query = "") {
 
         card.append(cover, info);
 
-        // Open Fana-e-Hayat details page on card click
         if (book.title === "Fana-e-Hayat") {
             card.style.cursor = "pointer";
             card.tabIndex = 0;
@@ -147,10 +140,8 @@ function renderNovels(query = "") {
     });
 }
 
-// Search novels
 search.addEventListener("input", event => {
     renderNovels(event.target.value);
 });
 
-// Display novels
 renderNovels();
